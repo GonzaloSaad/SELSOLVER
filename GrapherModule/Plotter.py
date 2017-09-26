@@ -21,7 +21,6 @@ class Plotter:
     def __createLineNumber(self,start, stop, step):
         res = []
         num = start
-
         while num <= stop:
             res.append(num)
             num += step
